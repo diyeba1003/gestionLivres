@@ -1,0 +1,40 @@
+.idea/
+.vscode/
+
+# fichier temporaires
+target/
+*.log
+*.tmp
+*.bak
+*.swp
+
+#java
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+
+#  fichiers Maven
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+mvnw
+mvnw.cmd
+
+node_modules/
+
+/dist/
+/build/
+coverage/
+
+*.tsbuildinfo
+
+# Ignorer les logs et caches
+npm-debug.log
+yarn-error.log
+
+#  fichiers de lock de dépendances
+package-lock.json
+yarn.lock
