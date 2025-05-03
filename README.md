@@ -1,5 +1,5 @@
 # gestion de livres - projet Edacy 
-Ce projet est une application web pour la gestion de livres, composé d'un backend en **Java Spring Boot avec Jwt** et d'un **Frontend Angular**.
+Ce projet est une application web pour la gestion de livres, composé d'un backend en **Java Spring Boot avec Jwt** et d'un **Frontend Angular**. 
 
 ## technos utilisées:
 - Backend : Java, spring boot , spring security, Jwt , JPA, MySQL
@@ -21,10 +21,14 @@ gestionLivres/
  - java 17 +
  - Node.js, NPM  + Angular CLI 
  - Maven
-
+ - Base de données
+   pour la base de données j'ai des utilisateurs avec roles: ADMIN et USER, c'est le admin qui peut avoir certaines actions si vous arrivez pas à inserer un utilisateur avec le role admin, vous pouvez l'inserer avec un role USER ensuite modifier l'utilisateur en lui attribuant le role ADMIN.
+ 
  ## lancement du backend:
 git clone https://github.com/diyeba1003/gestionLivres.git
 
+
+-  Configurer  application.properties pour la base de données.
  - cd gestionLivres/backend
  - mvn clean
  - mvn install
@@ -35,7 +39,6 @@ git clone https://github.com/diyeba1003/gestionLivres.git
  ## lancement du frontend:
  git clone https://github.com/diyeba1003/gestionLivres.git
 
-   
 
  - cd gestionLivres/frontend
  - npm install
